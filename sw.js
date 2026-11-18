@@ -1,7 +1,7 @@
 // 離線快取：第一次開啟時把所有檔案存進手機，之後不需網路。
 // 更新內容時，把 VERSION 改成新的值再上傳，手機下次連網開啟就會換成新版。
-const VERSION = 'zhouyi-v2';
-const FILES = ['./', './index.html', './manifest.webmanifest',
+const VERSION = 'zhouyi-v4';
+const FILES = ['./', './index.html', './qigua.html', './manifest.webmanifest',
   './apple-touch-icon.png', './icon-192.png', './icon-512.png'];
 
 self.addEventListener('install', e => {
